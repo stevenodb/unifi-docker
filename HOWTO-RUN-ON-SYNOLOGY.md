@@ -5,4 +5,4 @@ Steps:
 - pick a location for storing settings/logs/etc (eg. /volume1/docker/unifi)
 - adjust volumes in docker-compose to the location you just picked
 - you need to create all subdirs bound in the docker-compose under /volume1/docker/unifi (log, db, etc.)
-- docker-compose up -d in the docker-compose.yml directory
+- docker-compose pull && docker-compose up -d # in the docker-compose.yml directory

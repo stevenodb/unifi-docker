@@ -28,7 +28,7 @@ services:
       - /volume1/docker/unifi/data:/unifi/data
       - /volume1/docker/unifi/log:/unifi/log
       - /volume1/docker/unifi/cert:/unifi/cert
-      - /volume1/docker/unifi/init:/unifi/init.d
+      - /volume1/docker/unifi/init.d:/unifi/init.d
       - /volume1/docker/unifi:/unifi
       - run:/var/run/unifi
     environment:
